@@ -4,11 +4,11 @@ btn.addEventListener('click', toggleBulb)
 
 function toggleBulb(_event){
     if(btn.textContent.includes('On')){
-    bulb.src="D:/WEB DEV/images/bulbOn.jpg"
+    bulb.src="./bulbOn.jpg"
     btn.textContent="Turn Off" 
     }
     else{
-        bulb.src="D:/WEB DEV/images/bulbOff.jpg"
+        bulb.src="./bulbOff.jpg"
         btn.textContent="Turn On"
     }
 }
